@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    {{>navbar}}
+
+    {{! --Hero Section Start  --}}
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row"> 
+                    <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+                        <h1>Welcome To Aarya Import Export</h1>
+                        <h1>GROW YOUR BUSINESS WITH US</h1>
+                        <p>We Are The Team Of <span class="bold-style">Professional Devioper</span></p>
+                        <button class="btn-style btn-primary">Read more</button>
+                    </div>
+                    {{! ---- right Side ----}}
+                    <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+                        <figure>
+                            <img src="images/import1.jpg" alt="Aarya Import Export Images" height="400vh" width="600px;">
+                        </figure>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      {{! --Hero Section end  --}}
+      {{! --About Section Start  --}}
+      {{>about}}
+      {{! --AboutSection end  --}}
+
+      {{! --Service Section Start  --}}
+      {{>service}}
+      {{! --service  Section end  --}}
+
+     {{! --map Section Start  --}}
+      {{>maps}}
+      {{! --map  Section end  --}}
+
+      {{! --contact us Section Start  --}}
+      {{>contact}}
+      {{! --contact us Section end  --}}
+
+<footer>
+    <p>Develop By Aarya Import Export Pvt. Ltd</p>
+
+</footer>
+  
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+
+</body>
+</html>
